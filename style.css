@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom left,  pink 40%, yellow , green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 320px;
+    height: 450px;
+    background-color:transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.upper{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.istockphoto.com/id/1530973530/photo/software-development-concept.jpg?s=1024x1024&w=is&k=20&c=m4_IdIuWnkYohQc8xGhPhxYGXHQvnbC9sERP-RualG8=);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.upper > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 150px;
+}
+ 
+.lower{
+     background-color:white; 
+    width: 100%;
+    height: 60%;
+}
+
+.lower > h1{
+       padding-top: 70px;
+       text-align: center;
+       font-size: 30px;
+       font-weight: 900;
+       font-family: Arial, Helvetica, sans-serif;
+}
+
+.lower > h2{
+    text-align: center;
+    padding-top: 9px;
+    color: red;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.lower > p{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.lower > button{
+    display: block;
+    margin: 5px auto;
+    padding: 7px 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: royalblue;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
